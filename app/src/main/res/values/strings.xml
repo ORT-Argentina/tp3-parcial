@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ExamenKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ingresarSplash">Ingresar</string>
+    <string name="subtitleSplash">ShopShop</string>
+    <string name="titleSplash">Always care customers</string>
+
 </resources>

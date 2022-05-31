@@ -1,11 +1,12 @@
-package com.example.examenkotlin
+package com.example.examenkotlin.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.examenkotlin.R
 
-class StartActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_start)
+        setContentView(R.layout.activity_main)
     }
 }
