@@ -11,10 +11,12 @@
 
 > 🧱 Clonar el repositorio y crear un branch con la siguiente estructura en el nombre:
 
-YY-CC-GRUPO##
+YY-C-GRUPO##
 
 YY = Año actual
-CC = Cuatrimestre. (01 - Marzo-Junio & 02 - Agosto-Diciembre)
+
+C = Cuatrimestre. (1 - Marzo-Junio & 2 - Agosto-Diciembre)
+
 GRUPO## = Nro de Grupo.
 
 ## 🔨 Importante
