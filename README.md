@@ -2,6 +2,13 @@
     PARCIAL TP3
 </h1>
 
+## INTEGRANTES GRUPO 5 
+Federico Padula 
+Tom Maenhout
+Grosso Alejandro 
+Tomas Loughry
+Daisuke Miyashiro
+Agustin Venturelli
 
 ## 👓 Sobre este repositorio
 
@@ -11,9 +18,9 @@
 
 > 🧱 Clonar el repositorio y crear un branch con la siguiente estructura en el nombre:
 
-YY-C-GRUPO##
+22-C-GRUPO05
 
-YY = Año actual
+YY = 31-05-2022
 
 C = Cuatrimestre. (1 - Marzo-Junio & 2 - Agosto-Diciembre)
 
