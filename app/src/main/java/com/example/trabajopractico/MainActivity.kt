@@ -34,8 +34,6 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         bottomNavigationView.setupWithNavController(navController)
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         NavigationUI.setupActionBarWithNavController(this, navController, binding.drawerLayout)
     }
 }
