@@ -35,8 +35,7 @@ class ContainerActivity : AppCompatActivity() {
 
         NavigationUI.setupWithNavController(bottomNavView, navHostFragment.navController)
 
-        navView = findViewById(R.id.nav_view)
-        navView.setupWithNavController(navHostFragment.navController)
+
 
         navHostFragment.navController.addOnDestinationChangedListener { _, _, _ ->
             supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_launcher_foreground)
@@ -52,8 +51,11 @@ class ContainerActivity : AppCompatActivity() {
         NavigationUI.setupActionBarWithNavController(
             this,
             navHostFragment.navController,
-            appBarConfiguration
+            drawerLayout
         )
+
+        navView = findViewById(R.id.nav_view)
+        navView.setupWithNavController(navHostFragment.navController)
     }
 
     override fun onStart() {

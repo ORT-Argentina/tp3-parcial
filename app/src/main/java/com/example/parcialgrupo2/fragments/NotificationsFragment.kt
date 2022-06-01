@@ -23,10 +23,12 @@ class NotificationsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        setHasOptionsMenu(true)
+        requireActivity().title = "Notifications"
+
         v = inflater.inflate(R.layout.fragment_notifications, container, false)
 
         recyclerNotifications = v.findViewById(R.id.recycler_view)
-
 
         return v
     }
