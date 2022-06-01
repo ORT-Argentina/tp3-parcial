@@ -28,3 +28,12 @@ GRUPO## = Nro de Grupo.
 > Se deberá replizar lo más parecido posible a la siguiente aplicación Mobile.
 
 https://www.figma.com/file/E7ulf5gOGvBEPPH3aStCsx/Parcial-TP3---2022-May
+
+INTEGRANTES:
+- Noelia Garro
+- Pablo Maurig
+- Ivan Parola
+- Federico Propatto y Cafaro
+- Juan Pablo Ruax Debruijn
+
+Fecha de Entrega: 31/5/2022
