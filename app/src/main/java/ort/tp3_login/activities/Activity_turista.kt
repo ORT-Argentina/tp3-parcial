@@ -36,7 +36,7 @@ class activity_turista : AppCompatActivity() {
     private lateinit var navController : NavController
     private lateinit var appBarConfiguration: AppBarConfiguration
 
-    private lateinit var bottomNavView : BottomNavigationView
+    //private lateinit var bottomNavView : BottomNavigationView
     private lateinit var navHostFragment : NavHostFragment
 
 
@@ -53,10 +53,12 @@ class activity_turista : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_turista)
 
-        navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        bottomNavView = findViewById(R.id.bottomNav)
+        //navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        //bottomNavView = findViewById(R.id.bottomNav)
+        //navController = navHostFragment.navController
+        //nav_view.setupWithNavController(navController)
 
-        NavigationUI.setupWithNavController(bottomNavView, navHostFragment.navController)
+        //NavigationUI.setupWithNavController(bottomNavView, navHostFragment.navController)
 
 
         Log.d("dentro el metodo","onCreate de Home_turista")
@@ -91,7 +93,7 @@ class activity_turista : AppCompatActivity() {
         return NavigationUI.navigateUp(navController,drawer_layout_id)
     }
 
-    
+
 
 
     @SuppressLint("MissingPermission")
