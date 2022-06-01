@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_turista"
+        android:title="Home"
+        android:icon="@drawable/icon_home"/>
+    <item
+        android:id="@+id/perfil_turista"
+        android:title="Notificaciones"
+            android:icon="@drawable/notification"/>
+    <item
+        android:id="@+id/reservaTurista"
+        android:title="Configuración"
+        android:icon="@drawable/icon_profile"/>
+
+
+</menu>

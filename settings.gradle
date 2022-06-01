@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Parcial"
+rootProject.name = "TP3-Login"
 include ':app'

@@ -3,26 +3,79 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/login">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.maenhout.parcial.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:id="@+id/login"
+        android:name="ort.tp3_login.fragments.login"
+        android:label="login" >
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_login_to_containerFragmentGuia"
+            app:destination="@id/containerFragmentGuia" />
+        <action
+            android:id="@+id/action_login_to_home_turista"
+            app:destination="@id/home_turista" />
+        <action
+            android:id="@+id/action_login_to_registroEligir"
+            app:destination="@id/registroEligir" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.maenhout.parcial.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/containerFragmentGuia"
+        android:name="ort.tp3_login.fragments.containerFragmentGuia"
+        android:label="containerFragmentGuia" />
+    <fragment
+        android:id="@+id/home_turista"
+        android:name="ort.tp3_login.fragments.home_turista"
+        android:label="home_turista" >
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_home_turista_to_login"
+            app:destination="@id/login"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroGuia"
+        android:name="ort.tp3_login.fragments.RegistroGuia"
+        android:label="RegistroGuia" >
+        <action
+            android:id="@+id/action_registroGuia_to_registroEligir"
+            app:destination="@id/registroEligir"
+            app:popUpTo="@id/registroEligir"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_registroGuia_to_login"
+            app:destination="@id/login"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroEligir"
+        android:name="ort.tp3_login.fragments.RegistroEligir"
+        android:label="fragment_registro_eligir"
+        tools:layout="@layout/fragment_registro_eligir" >
+        <action
+            android:id="@+id/action_registroEligir_to_registroGuia"
+            app:destination="@id/registroGuia" />
+        <action
+            android:id="@+id/action_registroEligir_to_registroTurista"
+            app:destination="@id/registroTurista" />
+        <action
+            android:id="@+id/action_registroEligir_to_login"
+            app:destination="@id/login"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroTurista"
+        android:name="ort.tp3_login.fragments.RegistroTurista"
+        android:label="register" >
+        <action
+            android:id="@+id/action_registroTurista_to_registroEligir"
+            app:destination="@id/registroEligir"
+            app:popUpTo="@id/registroEligir"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_registroTurista_to_login"
+            app:destination="@id/login" />
     </fragment>
 </navigation>
