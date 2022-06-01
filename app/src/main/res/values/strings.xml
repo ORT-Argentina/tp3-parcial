@@ -5,6 +5,20 @@
 
     <string name="ingresarSplash">Ingresar</string>
     <string name="subtitleSplash">ShopShop</string>
-    <string name="titleSplash">Always care customers</string>
+    <string name="loginTitle">Bienvenido</string>
+    <string name="descriptionLogin">Ingresar a ShopShop</string>
+    <string name="btnLogin">INGRESAR</string>
+    <string name="registryLogin">Si no tenes cuenta,</string>
+    <string name="emailLogin">E-mail*</string>
+    <string name="passLogin">Contraseña*</string>
+    <string name="registryLogin2">Registrate</string>
+    <string name="questionLogin">¿Olvidaste la contraseña?</string>
+    <string name="home">Home</string>
+    <string name="notify">Notificaciones</string>
+    <string name="settings">Configuración</string>
+    <string name="open_nav_drawer">Open</string>
+    <string name="close_nav_drawer">Close</string>
+    <string name="exit">Salir</string>
+    <string name="email">E-mail</string>
 
 </resources>

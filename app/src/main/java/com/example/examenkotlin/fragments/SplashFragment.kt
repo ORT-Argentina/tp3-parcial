@@ -29,8 +29,12 @@ class SplashFragment : Fragment() {
 
     override fun onStart() {
         super.onStart()
-        val action1 = SplashFragmentDirections.actionSplashFragmentToLoginFragment()
-        viewSplash.findNavController().navigate(action1)
+
+        btnIngresar.setOnClickListener {
+            val action1 = SplashFragmentDirections.actionSplashFragmentToLoginFragment()
+            viewSplash.findNavController().navigate(action1)
+        }
+
     }
 
 }

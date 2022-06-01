@@ -11,7 +11,7 @@
         android:theme="@style/Theme.ExamenKotlin">
         <activity
             android:name=".activities.StartActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activities.MainActivity"
             android:exported="true">
