@@ -19,14 +19,5 @@
         android:id="@+id/listFragment"
         android:name="com.example.parcialgrupo2.fragments.NotificationsFragment"
         android:label="fragment_list"
-        tools:layout="@layout/fragment_notifications" >
-        <action
-            android:id="@+id/action_listFragment_to_listItemFragment"
-            app:destination="@id/listItemFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/listItemFragment"
-        android:name="com.example.parcialgrupo2.fragments.ListItemFragment"
-        android:label="fragment_list_item"
-        tools:layout="@layout/fragment_list_item" />
+        tools:layout="@layout/fragment_notifications" />
 </navigation>
