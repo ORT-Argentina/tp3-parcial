@@ -45,6 +45,7 @@
         android:id="@+id/ingresarButton"
         android:layout_width="218dp"
         android:layout_height="55dp"
+        android:background="#FFFFFF"
         android:text="Ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
