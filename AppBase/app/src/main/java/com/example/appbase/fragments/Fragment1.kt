@@ -19,49 +19,26 @@ import androidx.navigation.findNavController*/
 class Fragment1 : Fragment() {
 
     private lateinit var view1 : View
-/*private lateinit var viewModel: Fragment1ViewModel*/
-    lateinit var txtName: TextView
-    lateinit var txtInput: EditText
 
 
-override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
 
-}
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
-override fun onCreateView(
-    inflater: LayoutInflater, container: ViewGroup?,
-    savedInstanceState: Bundle?
-): View? {
-    // Inflate the layout for this fragment
-    view1 = inflater.inflate(R.layout.fragment_1, container, false)
+    }
 
-    txtName = view1.findViewById(R.id.txtName)
-    txtInput = view1.findViewById(R.id.txtinput)
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        view1 = inflater.inflate(R.layout.fragment_1, container, false)
 
-    return view1
-}
+        return view1
+    }
 
-/*    override fun onActivityCreated(savedInstanceState: Bundle?) {
-    super.onActivityCreated(savedInstanceState)
+    override fun onStart() {
+        super.onStart()
 
-    viewModel = ViewModelProvider(requireActivity()).get(Fragment1ViewModel::class.java)
-
-    viewModel.name.observe(viewLifecycleOwner, Observer{ result ->
-        txtName.text = result.toString()
-
-    })
-    txtInput.setText(viewModel.name.value)
-}*/
-
-override fun onStart() {
-    super.onStart()
-
-    /*btnChange.setOnClickListener {
-        val action2 = Fragment1Directions.actionFragment1ToFragment2();
-        v.findNavController().navigate(action2)
-        viewModel.changeName()
-    }*/
-
-}
+    }
 }

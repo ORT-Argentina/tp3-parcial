@@ -4,6 +4,7 @@
 
     <SwitchPreference
         android:defaultValue="false"
+        android:foregroundTint="#A13737"
         android:key="switch_preference_1"
         android:title="Notificaciones" />
 </PreferenceScreen>

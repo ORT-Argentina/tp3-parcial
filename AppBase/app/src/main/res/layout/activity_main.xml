@@ -24,17 +24,15 @@
             android:id="@+id/bottom_bar"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            app:itemBackground="@color/purple_200"
+            app:itemBackground="@color/white"
             app:itemHorizontalTranslationEnabled="true"
-            app:labelVisibilityMode="auto"
+            app:labelVisibilityMode="unlabeled"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintVertical_bias="1.0"
             app:menu="@menu/menu_main" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
     <com.google.android.material.navigation.NavigationView
@@ -42,8 +40,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="#C12323"
         android:fitsSystemWindows="true"
-        app:menu="@menu/menu_main">
-    </com.google.android.material.navigation.NavigationView>
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu_main"></com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>
