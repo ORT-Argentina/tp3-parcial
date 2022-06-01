@@ -35,6 +35,7 @@ class NotificationFragment : Fragment() {
         }
         viewNotifications = inflater.inflate(R.layout.fragment_notification, container, false)
         notificationRecyclerView = viewNotifications.findViewById(R.id.recycler_view_notifications)
+
         return viewNotifications
     }
 

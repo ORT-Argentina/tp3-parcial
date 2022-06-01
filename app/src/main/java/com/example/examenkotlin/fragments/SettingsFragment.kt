@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.preference.PreferenceFragmentCompat
 import com.example.examenkotlin.R
+import com.example.examenkotlin.activities.StartActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 
@@ -22,7 +23,9 @@ class SettingsFragment : PreferenceFragmentCompat() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        root =
+        if(activity != null){
+            (activity as StartActivity).supportActionBar?.title = "Configuración"
+        }
         return super.onCreateView(inflater, container, savedInstanceState)
     }
 }

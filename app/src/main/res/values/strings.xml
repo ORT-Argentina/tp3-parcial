@@ -11,6 +11,7 @@
     <string name="registryLogin">Si no tenes cuenta,</string>
     <string name="emailLogin">E-mail*</string>
     <string name="passLogin">Contraseña*</string>
+    <string name="description1">Always care customs</string>
     <string name="registryLogin2">Registrate</string>
     <string name="questionLogin">¿Olvidaste la contraseña?</string>
     <string name="home">Home</string>
@@ -20,5 +21,14 @@
     <string name="close_nav_drawer">Close</string>
     <string name="exit">Salir</string>
     <string name="email">E-mail</string>
+
+    <string name="ingresar">INGRESAR</string>
+    <string name="olvide_la_contrase_a">Olvide la Contraseña?</string>
+    <string name="contrase_a">Contraseña*</string>
+    <string name="e_mail">E-mail*</string>
+    <string name="ingresar_a_shopshop">Ingresar A ShopShop</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="shopshop">ShopShop</string>
+    <string name="si_no_tenes_cuenta_registrate">Si no tenes cuenta, Registrate</string>
 
 </resources>

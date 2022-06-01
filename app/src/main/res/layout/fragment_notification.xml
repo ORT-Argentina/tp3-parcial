@@ -7,7 +7,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.NotificationFragment"
     android:layout_marginRight="15dp"
-    android:layout_marginLeft="15dp">
+    android:layout_marginLeft="15dp"
+    android:background="@color/yellow">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_notifications"

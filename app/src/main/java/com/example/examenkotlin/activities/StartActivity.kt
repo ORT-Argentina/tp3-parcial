@@ -18,7 +18,6 @@ import com.google.android.material.navigation.NavigationView
 
 class StartActivity : AppCompatActivity() {
 
-
     private lateinit var toolbar : Toolbar
     lateinit var drawerLayout: DrawerLayout
     lateinit var navigationView: NavigationView
@@ -31,17 +30,16 @@ class StartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_start)
 
         toolbar = findViewById(R.id.main_toolbar)
-        setSupportActionBar(toolbar) //Habilita la toolbar
-        getSupportActionBar()?.setDisplayShowTitleEnabled(true) // Elimina el Title, de los fragments, en la toolbar
-        drawerLayout = findViewById(R.id.drawer_layout) // menu drawer
-        navigationView = findViewById(R.id.nav_view) //navegación
+        setSupportActionBar(toolbar)
+        getSupportActionBar()?.setDisplayShowTitleEnabled(true)
+        drawerLayout = findViewById(R.id.drawer_layout)
+        navigationView = findViewById(R.id.nav_view)
 
         navController = Navigation.findNavController(this,R.id.nav_host_fragment)
 
         navigationView.setupWithNavController(navController)
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
 
-        //Creación del Botón Hamburguesa
         toogle = ActionBarDrawerToggle(
             this,
             drawerLayout,
@@ -56,14 +54,12 @@ class StartActivity : AppCompatActivity() {
         )
 
         setupActionBarWithNavController(navController, appBarConfiguration)
-        //MANTENGO LA HAMBURGUER EN LA TOOLBAR
 
         drawerLayout.addDrawerListener(toogle)
         toogle.syncState()
 
     }
 
-    //Navegación por ID: en el menu drawer el id es = al nombre del fragmento que figura en el navigation
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController, drawerLayout)
     }

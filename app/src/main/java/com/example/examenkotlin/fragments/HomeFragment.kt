@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.examenkotlin.R
+import com.example.examenkotlin.activities.StartActivity
 
 class HomeFragment : Fragment() {
 
@@ -18,7 +19,9 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+        if(activity != null){
+            (activity as StartActivity).supportActionBar?.title = "Home"
+        }
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 

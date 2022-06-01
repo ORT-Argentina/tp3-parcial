@@ -3,15 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/drawable-v24/searchview_background.xml" value="0.13" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/activity_main.xml" value="0.225" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/activity_start.xml" value="0.15572916666666667" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/fragment_home.xml" value="0.11481481481481481" />
-        <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/fragment_login.xml" value="0.18681318681318682" />
+        <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/fragment_settings.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/fragment_splash.xml" value="0.1" />
+        <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/fragment_splash.xml" value="0.33" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/header_drawer.xml" value="0.15572916666666667" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/layout/notification_item.xml" value="0.1" />
+        <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/menu/botton_navigation_menu.xml" value="0.11927083333333334" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/menu/drawer.xml" value="0.15572916666666667" />
         <entry key="..\:/Users/ANDREA/Desktop/examen2022/tp3-parcial/app/src/main/res/xml/root_preferences.xml" value="0.1" />
       </map>

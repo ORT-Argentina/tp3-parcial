@@ -4,7 +4,8 @@
     <item android:title="@string/home"
         android:icon="@drawable/ic_arrow"
         android:id="@+id/homeFragment"
-        android:checkable="true"/>
+        android:checkable="true" />
+
     <item android:title="@string/notify"
         android:icon="@drawable/ic_arrow"
         android:id="@+id/notificationFragment"
