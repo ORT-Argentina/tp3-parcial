@@ -1,9 +1,10 @@
-package com.example.parcialtp3
+package com.example.parcialtp3.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.parcialtp3.R
 
 class SplashActivity : AppCompatActivity() {
 
