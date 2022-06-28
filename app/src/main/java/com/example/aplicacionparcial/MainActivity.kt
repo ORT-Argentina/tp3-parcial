@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         btnSplash = findViewById(R.id.btnSplash)
         btnSplash.setOnClickListener{
             var intentNav = Intent(this, SecondActivity::class.java)
