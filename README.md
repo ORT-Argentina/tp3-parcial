@@ -11,13 +11,19 @@
 
 > 🧱 Clonar el repositorio y crear un branch con la siguiente estructura en el nombre:
 
-YY-C-GRUPO##
+YY-SS-CC-GG
 
 YY = Año actual
 
-C = Cuatrimestre. (1 - Marzo-Junio & 2 - Agosto-Diciembre)
+SS = Sede YA (Almagro) o BE (Belgrano)
 
-GRUPO## = Nro de Grupo.
+CC = Cuatrimestre (1 - Marzo-Junio & 2 - Agosto-Diciembre) & Curso (A, B, C, D, E, F, etc.)
+
+GG = Nro de Grupo en decena (Utilizar 0 a la izquierda)
+
+Ejemplo: Grupo 1 Curso A, primer cuatrimestre, de Belgrano 2022.
+22-BE-1A-01
+
 
 ## 🔨 Importante
 
@@ -25,6 +31,6 @@ GRUPO## = Nro de Grupo.
 
 ## 🤝 Consigna
 
-> Se deberá replizar lo más parecido posible a la siguiente aplicación Mobile.
+> Se deberá maquetar lo más parecido posible
 
-https://www.figma.com/file/E7ulf5gOGvBEPPH3aStCsx/Parcial-TP3---2022-May
+[Diseño de la aplicación](https://www.figma.com/file/fICV3ws2sdLkv49Nc67lgo/Parcial-%2F-Recuperatorio-28-Jun-2022)
