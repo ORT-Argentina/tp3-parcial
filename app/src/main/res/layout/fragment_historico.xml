@@ -95,7 +95,7 @@
                         android:id="@+id/imageView20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/rectangle_10" />
+                        android:src="@drawable/burritos" />
 
                     <LinearLayout
                         android:layout_width="188dp"
@@ -107,13 +107,7 @@
                             android:id="@+id/textView23"
                             android:layout_width="133dp"
                             android:layout_height="wrap_content"
-                            android:text="Big Mouth Burgers" />
-
-                        <TextView
-                            android:id="@+id/textView55"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Amercian food" />
+                            android:text="Cheese Nachos" />
 
                         <LinearLayout
                             android:layout_width="59dp"
@@ -125,14 +119,7 @@
                                 android:layout_width="30dp"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:text="4.6" />
-
-                            <ImageView
-                                android:id="@+id/imageView66"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/star" />
+                                android:text="$3000" />
 
                         </LinearLayout>
 
@@ -144,7 +131,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#55FFFFFF"
                         android:minHeight="48dp"
-                        android:src="@drawable/heartred" />
+                        android:src="@drawable/selectgris" />
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -169,7 +156,7 @@
                         android:id="@+id/imageView22"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/rectangle_10" />
+                        android:src="@drawable/nachos" />
 
                     <LinearLayout
                         android:layout_width="188dp"
@@ -183,12 +170,6 @@
                             android:layout_height="wrap_content"
                             android:text="Big Mouth Burgers" />
 
-                        <TextView
-                            android:id="@+id/textView97"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="American food" />
-
                         <LinearLayout
                             android:layout_width="59dp"
                             android:layout_height="30dp"
@@ -199,14 +180,7 @@
                                 android:layout_width="30dp"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:text="4.6" />
-
-                            <ImageView
-                                android:id="@+id/imageView26"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/star" />
+                                android:text="$2000" />
 
                         </LinearLayout>
 
@@ -218,7 +192,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#55FFFFFF"
                         android:minHeight="48dp"
-                        android:src="@drawable/heartred"
+                        android:src="@drawable/selectrojo"
                         tools:ignore="SpeakableTextPresentCheck" />
                 </LinearLayout>
 

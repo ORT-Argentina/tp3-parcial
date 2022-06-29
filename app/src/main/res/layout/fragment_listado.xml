@@ -139,7 +139,7 @@
                         android:id="@+id/imageView16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/rectangle_10" />
+                        android:src="@drawable/lafarola" />
 
                     <LinearLayout
                         android:layout_width="188dp"
@@ -151,13 +151,13 @@
                             android:id="@+id/textView12"
                             android:layout_width="133dp"
                             android:layout_height="wrap_content"
-                            android:text="Big Mouth Burgers" />
+                            android:text="Pizzeria La Farola" />
 
                         <TextView
                             android:id="@+id/textView11"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Amercian food" />
+                            android:text="Pizza" />
 
                         <LinearLayout
                             android:layout_width="59dp"
@@ -187,7 +187,7 @@
                         android:layout_width="74dp"
                         android:layout_height="wrap_content"
                         android:backgroundTint="#55FFFFFF"
-                        android:src="@drawable/heartred" />
+                        android:src="@drawable/heart" />
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -212,7 +212,7 @@
                         android:id="@+id/imageView20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/rectangle_10" />
+                        android:src="@drawable/sushifoto" />
 
                     <LinearLayout
                         android:layout_width="188dp"
@@ -224,13 +224,13 @@
                             android:id="@+id/textView23"
                             android:layout_width="133dp"
                             android:layout_height="wrap_content"
-                            android:text="Big Mouth Burgers" />
+                            android:text="Sushi Me" />
 
                         <TextView
                             android:id="@+id/textView55"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Amercian food" />
+                            android:text="Japanese food" />
 
                         <LinearLayout
                             android:layout_width="59dp"
