@@ -30,16 +30,18 @@ public class SecondActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 FragmentManager fm = getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
+
                 switch (item.getItemId()) {
                     case R.id.homeFragment:
                         ft.replace(R.id.fragmentContainerView, new homeFragment()).commit();
-                        break;
+                        return true;
 
                     case R.id.otherScreenFragment:
                         ft.replace(R.id.fragmentContainerView, new otherScreenFragment()).commit();
-                        break;
+                        return true;
+
                 }
-                return true;
+                return false;
             }
         });
 
@@ -50,22 +52,4 @@ public class SecondActivity extends AppCompatActivity {
 
     }
 
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        selectedItemNav(item);
-        return true;
-    }
-
-    private void selectedItemNav(MenuItem item) {
-        FragmentManager fm = getSupportFragmentManager();
-        FragmentTransaction ft = fm.beginTransaction();
-        switch (item.getItemId()) {
-            case R.id.homeFragment:
-                ft.replace(R.id.fragmentContainerView, new homeFragment()).commit();
-                break;
-
-            case R.id.otherScreenFragment:
-                ft.replace(R.id.fragmentContainerView, new otherScreenFragment()).commit();
-                break;
-        }
-    }
 }

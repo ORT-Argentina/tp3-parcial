@@ -10,7 +10,7 @@
         android:icon="@drawable/ic_refresh"
         android:title="Actualizar"/>
     <item
-        android:id="@+id/historicoFragment"
+        android:id="@+id/otherScreenFragment"
         android:icon="@drawable/ic_historico"
         android:title="Historico"/>
 </menu>
