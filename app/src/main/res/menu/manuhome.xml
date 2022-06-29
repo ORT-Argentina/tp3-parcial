@@ -3,11 +3,17 @@
 
     <item
         android:id="@+id/listado"
+        android:icon="@drawable/ic_icon_home"
+        android:iconTint="#FF1111"
         android:title="Listado" />
     <item
         android:id="@+id/actualizar"
+        android:icon="@drawable/ic_ellipse_55"
+        android:iconTint="#FF0000"
         android:title="Actualizar" />
     <item
         android:id="@+id/historico"
+        android:icon="@drawable/ic_icon_stat"
+        android:iconTint="#E80808"
         android:title="Historico" />
 </menu>
