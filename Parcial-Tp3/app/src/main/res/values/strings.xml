@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ParcialTp3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_comer">¡A Comer!</string>
+    <string name="splash_comidas">Tus comidas favoritas directo a casa</string>
+    <string name="splash_button">Pedir ahora</string>
+</resources>
