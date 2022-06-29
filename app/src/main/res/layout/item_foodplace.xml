@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="44dp"
+            android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imgItemFoodplace"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,14 +53,13 @@
 
         <ImageView
             android:id="@+id/imgStarItemFoodplace"
-            android:layout_width="41dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="100dp"
+            android:layout_width="23dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="112dp"
             app:layout_constraintStart_toEndOf="@+id/txtPunctuationFoodplace"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_star"
-            tools:srcCompat="@drawable/ic_star" />
+            app:srcCompat="@drawable/ic_star" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>
