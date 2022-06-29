@@ -6,22 +6,32 @@ import android.view.Menu
 import android.view.MenuInflater
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
+import androidx.viewpager2.widget.ViewPager2
 import com.example.parcialtp3.R
-import com.google.android.material.bottomnavigation.BottomNavigationItemView
+import com.example.parcialtp3.adapters.ListadoTypesAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var navHostFragment: NavHostFragment
     private lateinit var bottomBar: BottomNavigationView
+    private lateinit var viewPager: ViewPager2
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        setTypesTabs()
+
         navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerMain) as NavHostFragment
         bottomBar = findViewById(R.id.bottomNavMain)
         NavigationUI.setupWithNavController(bottomBar, navHostFragment.navController)
+    }
+
+    private fun setTypesTabs() {
+        val tabLayout = findViewById<TabLayout>(R.id.tabLayout)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
