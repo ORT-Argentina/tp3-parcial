@@ -7,5 +7,9 @@
     <string name="title_itemMenuActualizar">Actualizar</string>
     <string name="title_itemMenuHistorico">Historico</string>
     <string name="listado" tools:ignore="ExtraTranslation">Listado disponible</string>
+    <string name="tabs_all">All</string>
+    <string name="tabs_pizza">Pizza</string>
+    <string name="tabs_burgers">Burgers</string>
+    <string name="tabs_tacos">Tacos</string>
 
 </resources>

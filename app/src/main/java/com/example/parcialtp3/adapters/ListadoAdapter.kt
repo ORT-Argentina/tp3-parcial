@@ -29,7 +29,6 @@ class ListadoAdapter (
         holder.setTitle(foodPlacesList!![position].name)
         holder.setType(foodPlacesList!![position].type)
         holder.setPunctuation(foodPlacesList!![position].punctuation)
-        //holder.setImage(foodPlacesList!![position].img)
 
         holder.getCardLayout().setOnClickListener{
             onItemClick(position)
