@@ -1,13 +1,11 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">ParcialTP3</string>
     <string name="title_splash">¡A Comer!</string>
     <string name="subtitle_splash">Tus comidas favoritas directo a casa</string>
-    <string name="title_btnForward_splash">Pedi Ahora</string>
+    <string name="title_btnForward_splash">Pedir Ahora</string>
     <string name="title_itemMenuListado">Listado</string>
     <string name="title_itemMenuActualizar">Actualizar</string>
     <string name="title_itemMenuHistorico">Historico</string>
-
-
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listado" tools:ignore="ExtraTranslation">Listado disponible</string>
 
 </resources>

@@ -51,10 +51,10 @@ class ListadoFragment : Fragment() {
     }
 
     private fun loadList() {
-        foodPlacesList.add(FoodPlace(1,"asd","Pizza",2.5, ""))
-        foodPlacesList.add(FoodPlace(2,"dsa","American food",3.1, ""))
-        foodPlacesList.add(FoodPlace(6,"asbd","Pizza",5.4, ""))
-        foodPlacesList.add(FoodPlace(2345,"hmdg","Japanese food",2.2, ""))
-        foodPlacesList.add(FoodPlace(42,"gns","Pizza",4.5, ""))
+        foodPlacesList.add(FoodPlace(1,"asd","Pizza",2.5, "https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg"))
+        foodPlacesList.add(FoodPlace(2,"dsa","American food",3.1, "https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg"))
+        foodPlacesList.add(FoodPlace(6,"asbd","Pizza",5.4, "https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg"))
+        foodPlacesList.add(FoodPlace(2345,"hmdg","Japanese food",2.2, "https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg"))
+        foodPlacesList.add(FoodPlace(42,"gns","Pizza",4.5, "https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg"))
     }
 }

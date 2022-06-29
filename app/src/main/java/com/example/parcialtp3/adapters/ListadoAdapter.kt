@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.parcialtp3.R
 import com.example.parcialtp3.databinding.ItemFoodplaceBinding
 import com.example.parcialtp3.entities.FoodPlace
+import com.squareup.picasso.Picasso
 
 class ListadoAdapter (
     private var foodPlacesList: List<FoodPlace>?,
@@ -28,7 +29,7 @@ class ListadoAdapter (
         holder.setTitle(foodPlacesList!![position].name)
         holder.setType(foodPlacesList!![position].type)
         holder.setPunctuation(foodPlacesList!![position].punctuation)
-        holder.setImage(foodPlacesList!![position].img)
+        //holder.setImage(foodPlacesList!![position].img)
 
         holder.getCardLayout().setOnClickListener{
             onItemClick(position)
@@ -52,7 +53,7 @@ class ListadoAdapter (
         }
 
         fun setImage(path: String) {
-            //Picasso.get().load(path).into(binding.imageView)
+            Picasso.get().load(path).into(binding.imgItemFoodplace)
         }
 
         fun getCardLayout (): CardView {

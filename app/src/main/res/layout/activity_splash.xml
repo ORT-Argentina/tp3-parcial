@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/imgSplash"
-        android:layout_width="186dp"
-        android:layout_height="143dp"
-        android:layout_marginTop="116dp"
+        android:layout_width="316dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,9 +22,13 @@
         android:id="@+id/txtTitleSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="36dp"
         android:text="@string/title_splash"
+        android:textColor="@color/text_black"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgSplash" />
 
@@ -32,19 +36,22 @@
         android:id="@+id/txtSubtitleSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="16dp"
         android:text="@string/subtitle_splash"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitleSplash" />
 
     <Button
         android:id="@+id/btnForwardSplash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:layout_marginTop="73dp"
         android:text="@string/title_btnForward_splash"
         android:textAllCaps="false"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSubtitleSplash" />

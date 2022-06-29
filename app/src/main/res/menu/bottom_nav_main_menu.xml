@@ -3,11 +3,13 @@
 
     <item
         android:id="@+id/menu_listado"
+        android:icon="@drawable/listado_icon"
         android:title="@string/title_itemMenuListado" />
     <item
         android:id="@+id/menu_actualizar"
         android:title="@string/title_itemMenuActualizar" />
     <item
         android:id="@+id/menu_historico"
+        android:icon="@drawable/historico_icon"
         android:title="@string/title_itemMenuHistorico" />
 </menu>
