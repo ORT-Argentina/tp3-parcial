@@ -6,10 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnvHome"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcvHome"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:menu="@menu/manuhome"
-        />
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/menunav" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnvHome"
+        android:layout_width="411dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fcvHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/manuhome" />
 </androidx.constraintlayout.widget.ConstraintLayout>
