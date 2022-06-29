@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav2"
+    app:startDestination="@id/ListadoBtn1">
+
+    <fragment
+        android:id="@+id/ListadoBtn1"
+        android:name="com.example.myapplication.fragment2"
+        android:label="fragment_fragment2"
+        tools:layout="@layout/fragment_fragment2" />
+    <fragment
+        android:id="@+id/HistoricoBtn1"
+        android:name="com.example.myapplication.fragment3"
+        android:label="fragment_fragment3"
+        tools:layout="@layout/fragment_fragment3" />
+</navigation>
