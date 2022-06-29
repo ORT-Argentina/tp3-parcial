@@ -10,5 +10,6 @@
         android:icon="@drawable/ic_refresh"/>
     <item android:title="Historico"
         android:id="@+id/historicoFragment"
-        android:icon="@drawable/ic_historico"/>
+        android:icon="@drawable/ic_historico"
+        android:visible="true"/>
 </menu>

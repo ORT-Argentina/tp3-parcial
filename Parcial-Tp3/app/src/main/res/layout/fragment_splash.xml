@@ -13,9 +13,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="1dp">
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -45,17 +48,30 @@
                 android:text="@string/splash_comidas"
                 android:textAlignment="center" />
 
-            <Space
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="73dp" />
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btnSplash"
-                android:layout_width="220dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="77dp"
-                android:layout_marginRight="78dp"
-                android:text="@string/splash_button" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp" />
+
+                <Button
+                    android:id="@+id/btnSplash"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/boton_redondeado"
+                    android:text="@string/splash_button2"
+                    android:textAllCaps="false" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

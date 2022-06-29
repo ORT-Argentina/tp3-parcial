@@ -5,4 +5,9 @@
     <string name="splash_comer">¡A Comer!</string>
     <string name="splash_comidas">Tus comidas favoritas directo a casa</string>
     <string name="splash_button">Pedir ahora</string>
+    <string name="historico_pizzeria">Pizzeria La Farola</string>
+    <string name="historico_tiempo" />
+    <string name="historico_espera">30 Minutos - Tiempo entrega</string>
+    <string name="historico_direccion">Av. Francisco Beiró 5201</string>
+    <string name="splash_button2">Pedir Ahora</string>
 </resources>
