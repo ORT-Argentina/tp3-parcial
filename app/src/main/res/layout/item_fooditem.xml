@@ -34,32 +34,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/txtTypeFoodplace"
+            android:id="@+id/txtPriceFoodItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imgItemFoodplace"
-            app:layout_constraintTop_toBottomOf="@+id/txtTitleFoodItem" />
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/txtPunctuationFoodplace"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintStart_toEndOf="@+id/imgItemFoodplace"
-            app:layout_constraintTop_toBottomOf="@+id/txtTypeFoodplace" />
-
-        <ImageView
-            android:id="@+id/imgStarItemFoodplace"
-            android:layout_width="23dp"
-            android:layout_height="28dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="112dp"
-            app:layout_constraintStart_toEndOf="@+id/txtPunctuationFoodplace"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_star" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>

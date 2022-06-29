@@ -40,7 +40,7 @@ class ListadoAdapter (
         private val binding = ItemFoodplaceBinding.bind(v)
 
         fun setTitle(title: String) {
-            binding.txtTitleFoodplace.text = title
+            binding.txtTitleFoodItem.text = title
         }
 
         fun setType(type: String) {

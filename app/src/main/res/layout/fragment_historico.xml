@@ -7,58 +7,39 @@
     tools:context=".fragments.HistoricoFragment" >
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txtDeliveryTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
         android:text="30 Minutos - Tiempo entrega"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/imgIconClock"
+        app:layout_constraintTop_toBottomOf="@+id/txtDirection" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtDirection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:text="Av. Francisco Beiro 5201"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toEndOf="@+id/imgIconLocation"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameFoodplace" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtTitleMenus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="24dp"
         android:text="Menús"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/txtDeliveryTime" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="25dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/ic_star"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="25dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="12dp"
-        android:src="@drawable/ic_star"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgFoodplace"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:src="@drawable/ic_star"
@@ -67,15 +48,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtNameFoodplace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="28dp"
         android:text="Pizzeria La Farola"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imgFoodplace" />
 
     <Button
         android:id="@+id/btnLike"
@@ -83,15 +65,36 @@
         android:layout_height="32dp"
         android:layout_marginStart="180dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/txtNameFoodplace"
+        app:layout_constraintTop_toBottomOf="@+id/imgFoodplace"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMenu"
         android:layout_width="409dp"
         android:layout_height="234dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgIconLocation"
+        android:layout_width="21dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_map_pin_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameFoodplace" />
+
+    <ImageView
+        android:id="@+id/imgIconClock"
+        android:layout_width="21dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_clock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgIconLocation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
