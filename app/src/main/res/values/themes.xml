@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PreParcial" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_red_crayola</item>
+        <item name="colorPrimaryVariant">@color/bittersweet</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/cadet_blue_crayola</item>
+        <item name="colorSecondaryVariant">@color/manatee</item>
+        <item name="colorOnSecondary">@color/charcoal</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="buttonDefault">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/boton_redondo</item>
+    </style>
+
+    <style name="titulo">
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="subtitulo">
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="textoRegLogin">
+        <item name="android:textColor">@color/orange_red_crayola</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="nombreMascota">
+        <item name="android:textColor">@color/orange_red_crayola</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="textoGreyed">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textoDetail">
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="estado">
+        <item name="android:textColor">@color/manatee</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="especie">
+        <item name="android:textColor">@color/cadet_blue_crayola</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">italic</item>
+
+    </style>
+
+    <style name="nombreMascota2">
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="fecha">
+        <item name="android:textColor">@color/cadet_blue_crayola</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="img_logo">
+        <item name="android:tint">@color/cadet_blue_crayola</item>
+    </style>
+
+    <style name="Theme.LoginGoogle.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.LoginGoogle.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
