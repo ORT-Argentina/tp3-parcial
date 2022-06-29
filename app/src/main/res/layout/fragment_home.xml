@@ -1,14 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".homeFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        tools:context=".homeFragment">
 
-</FrameLayout>
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="376dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="48dp"
+            android:queryHint="Listado disponible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <HorizontalScrollView
+            android:id="@+id/verticalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/horizontalLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                >
+
+                <Button
+                    android:id="@+id/btn_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="#FF5252"
+                    android:text="All"
+                    android:textAllCaps="false"
+                    android:textColor="#F1F4F9" />
+
+                <Button
+                    android:id="@+id/btn_pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="#F1F4F9"
+                    android:drawableLeft="@drawable/btnpizza"
+                    android:textAllCaps="false"
+                    android:text="Pizza"
+                    android:textColor="#3D3D3D"
+                    />
+
+                <Button
+                    android:id="@+id/btn_burguers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:textAllCaps="false"
+                    android:drawableLeft="@drawable/btnburguer"
+                    android:text="Burguers"
+                    android:textColor="#3D3D3D"
+                    android:backgroundTint="#F1F4F9"/>
+
+                <Button
+                    android:id="@+id/btn_tacos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:drawableLeft="@drawable/btntacos"
+                    android:text="Tacos"
+                    android:textAllCaps="false"
+                    android:textColor="#3D3D3D"
+                    android:backgroundTint="#F1F4F9"/>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

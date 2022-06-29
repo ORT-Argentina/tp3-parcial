@@ -10,4 +10,9 @@
         android:name="com.example.myapplication.homeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/otherScreenFragment"
+        android:name="com.example.myapplication.otherScreenFragment"
+        android:label="fragment_other_screen"
+        tools:layout="@layout/fragment_other_screen" />
 </navigation>
