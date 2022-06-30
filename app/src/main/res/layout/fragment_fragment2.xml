@@ -114,14 +114,14 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/txtPizzeriaLafarola"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Big Mouth Burguers" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/franciscoBeiro"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -162,7 +162,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textFarola"
+                        android:id="@+id/txtnachos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -176,7 +176,7 @@
                         android:text="Pizza" />
 
                     <TextView
-                        android:id="@+id/puntajeFarola"
+                        android:id="@+id/pesos3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -209,7 +209,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/txtsushime"
+                        android:id="@+id/txtburrito"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -223,7 +223,7 @@
                         android:text="Japanese food" />
 
                     <TextView
-                        android:id="@+id/txtsushi"
+                        android:id="@+id/pesos8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
