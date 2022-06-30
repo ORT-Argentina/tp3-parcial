@@ -2,4 +2,7 @@
     <string name="app_name">My Application</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a_comer">¡A Comer!</string>
+    <string name="tus_comidas_favoritas_directo_a_casa">Tus comidas favoritas directo a casa</string>
+    <string name="pedir_ahora">Pedir Ahora</string>
 </resources>

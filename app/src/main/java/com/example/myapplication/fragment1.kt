@@ -45,6 +45,7 @@ class fragment1 : Fragment() {
         btnNavFrag1.setOnClickListener{
             val action = fragment1Directions.actionFragment1ToSecond()
             v.findNavController().navigate(action)
+            activity?.finish()
         }
 
     }
