@@ -68,7 +68,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Pizza" />
+                android:text="Pizza"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -82,7 +83,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Burguers" />
+                android:text="Burguers"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -119,7 +121,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Big Mouth Burguers" />
+                        android:text="Big Mouth Burguers"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/franciscoBeiro"
@@ -167,7 +170,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Pizzeria la Farola" />
+                        android:text="Pizzeria la Farola"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textPizza"
@@ -214,7 +218,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Sushi Me" />
+                        android:text="Sushi Me"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/txtjaponesefood"
